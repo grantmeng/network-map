@@ -1,5 +1,5 @@
 FROM python:3.8
-LABEL author 'Grant Meng <mengh1@mskcc.org>'
+LABEL author 'Grant Meng'
 COPY . /app
 WORKDIR /app
 RUN pip install --upgrade pip && pip install --no-cache-dir -r requirements.txt
