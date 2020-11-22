@@ -1,0 +1,22 @@
+.node {
+    stroke: #fff;
+    stroke-width: 3px;
+    cursor:pointer;
+}
+.node text {
+  stroke:#333;
+  font-size:20px;
+  font-weight:100;
+}
+.node circle{
+  stroke:#fff;
+  stroke-width:3px;
+  fill:green;
+  cursor:pointer;
+}
+
+.link {
+    stroke-width: 2px;
+    stroke: #999;
+    stroke-opacity: 0.6;
+}
